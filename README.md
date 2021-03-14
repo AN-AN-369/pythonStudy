@@ -48,3 +48,31 @@ interrogatives=("how","what","why")
 -------------------------------
 "{}"format():按照顺序输出
 append():在列表末尾添加新的对象
+
+------------------------------
+
+def sentence_maker(phrase):
+    interrogatives=("how","what","why")
+    capitalized=phrase.capitalize()
+    if phrase.startswith(interrogatives):
+        return "{}?".format(capitalized)
+    else:
+        return "{}.".format(capitalized)
+
+results=[]
+while True:
+    user_input=input("Say somehthing:")
+    if user_input=="\end":
+        break
+    else:
+        results.append(sentence_maker(user_input))
+
+print(" ".join(results))
+
+-------------------------------
+"".join(result)
+
+------------------------------
+temps=[221,234,340,314]
+new_temps=[temp/10 if temp!=314 else 1 for temp in temps]
+print(new_temps)
