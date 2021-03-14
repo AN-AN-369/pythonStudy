@@ -34,3 +34,17 @@ E
 L
 L
 O
+
+-------------------------------
+item(): ('Marry',9.1)
+keys(): Marry
+values(): 9.1
+
+-------------------------------
+interrogatives=("how","what","why")
+.startswith(interrogatives)
+解释：检验是否存在和元组中相同的元素
+
+-------------------------------
+"{}"format():按照顺序输出
+append():在列表末尾添加新的对象
