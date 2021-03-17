@@ -126,3 +126,6 @@ with open("files/fruits.txt") as myfile:
 
 with open("files/fruits.txt","w") as myfile:
     myfile.write(str)
+    
+--------------------------
+docs.python.data=json.load(open("data.json"))
