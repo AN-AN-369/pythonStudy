@@ -129,3 +129,7 @@ with open("files/fruits.txt","w") as myfile:
     
 --------------------------
 docs.python.data=json.load(open("data.json"))
+
+-------------------------
+fetchall() ：
+   返回多个元组，即返回多条记录(rows),如果没有结果,则返回 ()
