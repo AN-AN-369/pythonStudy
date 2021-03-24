@@ -133,3 +133,15 @@ docs.python.data=json.load(open("data.json"))
 -------------------------
 fetchall() ：
    返回多个元组，即返回多条记录(rows),如果没有结果,则返回 ()
+   
+-------------------------
+from flask import Flask
+
+app=Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Website content goes here!"
+
+if __name__=="__main__":
+    app.run(debug=True)
