@@ -145,3 +145,17 @@ def home():
 
 if __name__=="__main__":
     app.run(debug=True)
+    
+ -------------------
+ y='Mynnme'
+res=y.replace('n','a',3)
+print(res)
+
+
+dic={'h':'hello',1:[2,1],'w':'world',1:2}
+dic.update({5:4,6:8})
+dic.pop('w')
+print(dic)
+
+a={i:i*2 for i in range(10)}
+print(a)
